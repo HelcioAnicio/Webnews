@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #121214;
-    color: #E1E1E6;
+    color: #ffffff;
     font-family: 'League Spartan', 'Work Sans', sans-serif;
     height: 100vh; 
     width: 100vw;
@@ -44,52 +44,61 @@ h2 {
     margin-top: 5%;
 }
 
-strong {
-    font-weight: bold;
-}
-
 .divtext :nth-child(3) {
+    width: 90%;
     font-family: 'League spartan' ,sans-serif;
     font-size: 14px;
     font-weight: 300;
+    word-spacing: 3px;
+    line-height: 15px;
 }
 
 
 
 /* MAIN FORM */
-form {
-    display: flex;
-    height: 100px;
-    width: 100%;
-    flex-wrap: wrap;
-    align-content: center;
+.divform > p {
+    color: #A8A8A8;
+    margin-top: 8%;
 }
 
-label {
-    color: #A8A8A8;
+form {
+    display: flex;
+    height: 6%;
+    width: 56%;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    filter: drop-shadow(4px 10px 15px rgba(0, 0, 0, 1));
+    position: absolute;
 }
 
 input {
     border: none;
     border-left: #04D361 solid 4px;
-    height: 34%;
-    width: 93%;
+    height: 100%;
+    width: 92%;
 }
 
 button {
+    width: 6%;
     background:  #8257e5;
     border: none;
-    height: 36%;
+    height: 105%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 
 /* FOOTER */
 footer {
-    border: 1px solid;
-    margin-top: 5%;
+    margin-top: 15%;
 }
 
+footer > a {
+    color: #8257e5;
+}
 
 
 
